@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>card</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Icon Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xwPpZ3+jTt6Gtf80VK8/JZ5+HHNp9IFj7+C+4X/7Pmgy1C3c9Q1xNVdj7oe3KaMp7i5NoqCKl8HaI96IO0tUEA==" crossorigin="anonymous" />
+    <!-- For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+      .sidebar {
+      position: fixed;
+      height: 100%;
+      width: 20%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      text-align: center;
+      background-image: url(images/slide-1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+    }
+
+    .sidebar h4 {
+      margin-top: 150px;
+      background-color: rgba(0, 0, 0, 0.372);
+      padding: 20px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 10px;
+      margin-top: 45px
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .sidebar a:hover {
+      color: white;
+      background-color: orange;
+      padding: 20px;
+      border-radius: 50px; 
+    }
+
+    .form-container {
+      background-image: url(images/slide-1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      padding: 20px;
+      margin-left: 30%;
+      margin-top: 75px;
+    }
+
+    .form-container table {
+      width: 100%;
+    }
+
+    .form-container th,
+    .form-container td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    .form-container th {
+      background-color: rgba(231, 11, 11, 0.491);
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .form-container input,
+    .form-container textarea,
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 2px solid goldenrod;
+      border-radius: 4px;
+    }
+
+    .form-container button {
+      background-color: #ffc107;
+      color: white;
+    }
+
+    .form-container button:hover {
+      background-color: #ff8b2c;
+    }
+
+    body{
+      background-image: linear-gradient(to top right , rgba(255, 0, 0, 0.747), rgba(255, 255, 0, 0.747));
+
+    }
+
+    table {
+          box-shadow: 0 8px 27px black;
+          margin-bottom: 28px;
+      }
+    </style>
+  </head>
+  <body>
+      <!-- NavBar Start -->
+      <nav class="navbar navbar-expand-lg  bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="index.html">Orange Line</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active ml-5">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="complaint.html">Complaint</a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="timing.html">Timing</a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="fair.html">Fair and Route</a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="card.html">Smart Card</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <a href="login.html" target="_blank" class="text-decoration-none">
+            <i class="fa fa-user fa-2x mx-3 px-2 py-1 text-light bg-warning rounded-circle"></i>
+          </a>
+        </div>
+      </nav>
+      <!-- NavBar End -->
+
+      <!-- SideBar Start -->
+      <div class="sidebar">
+        <h4 class="">Card Details</h4>
+        <ul>
+          <li><a href="newcard.html"><i class="fas fa-id-card mr-3"></i> Apply for New Card</a></li>
+          <li><a href="recharge.html"><i class="fas fa-credit-card mr-3"></i> Recharge Card</a></li>
+          <li><a href="balance.html"><i class="fas fa-balance-scale mr-3"></i> Balance Enquire</a></li>
+        </ul>
+      </div>
+      <!-- SideBar End -->
+      <!-- Main Content Start-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-6">
+              <table class="text-center form-container">
+                  <tr>
+                    <th colspan="2">
+                      <h3 style="color: #ffc107;">Enquire Balance</h3>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th><label for="name">Enter Card Number</label></th>
+                    <td><input type="tel" id="cardNumber" placeholder="xxxx-xxxxxx-xxx"></td>
+                  </tr>
+                  <tr>
+                    <th><label for="password">Password</label></th>
+                    <td><input type="password" id="password" placeholder="Alphanumeric"></td>
+                  </tr>
+                    <th colspan="2"><button id="balanceSubmit" class="btn btn-warning">Submit</button></th>
+                  </tr>
+                </table>
+          </div>
+          <div class="col-sm-3"></div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            // Add an event listener to the submit button
+            document.getElementById('balanceSubmit').addEventListener('click', function (event) {
+              // Prevent the form from submitting
+              event.preventDefault();
+        
+              // Get values from input fields
+              var cardNumber = document.getElementById('cardNumber').value.trim();
+              var password = document.getElementById('password').value.trim();
+        
+              // Check if any field is empty
+              if (cardNumber === '' || password === '') {
+                showAlert('Please fill in all fields.', 'alert-danger');
+              } else {
+                // Show a success alert
+                showAlert('Balance enquiry submitted successfully!', 'alert-success');
+        
+                // You can optionally add code here to send the form data to the server
+        
+                // Clear form fields
+                document.getElementById('cardNumber').value = '';
+                document.getElementById('password').value = '';
+              }
+            });
+        
+            // Function to show Bootstrap alert
+            function showAlert(message, alertType = 'alert-danger') {
+              var alertDiv = document.createElement('div');
+              alertDiv.classList.add('alert', alertType, 'mt-3');
+              alertDiv.innerHTML = message;
+        
+              // Insert the alert before the form
+              var formContainer = document.querySelector('.form-container');
+              formContainer.insertBefore(alertDiv, formContainer.firstChild);
+        
+              // Remove the alert after 5 seconds
+              setTimeout(function () {
+                alertDiv.remove();
+              }, 5000);
+            }
+          });
+        </script>
+        
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>card</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="index.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Font Icon Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-xwPpZ3+jTt6Gtf80VK8/JZ5+HHNp9IFj7+C+4X/7Pmgy1C3c9Q1xNVdj7oe3KaMp7i5NoqCKl8HaI96IO0tUEA=="
+    crossorigin="anonymous" />
+  <!-- For Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    .sidebar {
+      position: fixed;
+      height: 100%;
+      width: 20%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      text-align: center;
+      background-image: url(images/slide-1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+    }
+
+    .sidebar h4 {
+      margin-top: 150px;
+      background-color: rgba(0, 0, 0, 0.372);
+      padding: 20px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 10px;
+      margin-top: 45px
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .sidebar a:hover {
+      color: white;
+      background-color: orange;
+      padding: 20px;
+      border-radius: 50px;
+    }
+
+    /* Add this style for the video container */
+    body {
+      background-image: linear-gradient(to top right , rgba(255, 0, 0, 0.747), rgba(255, 255, 0, 0.747));
+    }
+
+    #video-container {
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 8px 27px black;
+      border-radius: 10px;
+      max-width: 800px;
+      margin-left: 30%;
+      margin-top: 5%;
+    }
+
+    .info-box {
+      text-align: center;
+    }
+
+    .info-box i {
+      font-size: 2em;
+      color: #17a2b8;
+    }
+
+    .video-container-inner {
+      margin-top: 20px;
+    }
+
+    video {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NavBar Start -->
+  <nav class="navbar navbar-expand-lg  bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="index.html">Orange Line</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active ml-5">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="complaint.html">Complaint</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="timing.html">Timing</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="fair.html">Fair and Route</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" href="card.html">Smart Card</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <a href="login.html" target="_blank" class="text-decoration-none">
+        <i class="fa fa-user fa-2x mx-3 px-2 py-1 text-light bg-warning rounded-circle"></i>
+      </a>
+    </div>
+  </nav>
+  <!-- NavBar End -->
+  <div class="container-fluid">
+    <!-- SideBar Start -->
+    <div class="sidebar">
+      <h4 class="">Card Details</h4>
+      <ul>
+        <li><a href="newcard.html"><i class="fas fa-id-card mr-3"></i> Apply for New Card</a></li>
+        <li><a href="recharge.html"><i class="fas fa-credit-card mr-3"></i> Recharge Card</a></li>
+        <li><a href="balance.html"><i class="fas fa-balance-scale mr-3"></i> Balance Enquire</a></li>
+      </ul>
+    </div>
+    <!-- SideBar End -->
+    <!-- Main Content Start-->
+    <div id="video-container">
+      <div class="row">
+        <div class="col-sm">
+          <h1>Orange Line Project</h1>
+          <p>Orange Line is an automated rapid transit line in Lahore, Punjab, Pakistan, and the first driverless metro in Pakistan. It is operated by the Punjab Mass Transit Authority and forms part of the Lahore Metro system.</p>
+          <div class="info-box">
+            <i class="fas fa-film"></i>
+            <h1>To Learn more about our project</h1>
+            <h3>You can view this video</h3>
+          </div>
+        </div>
+        <div class="col-sm video-container-inner">
+          <video controls>
+            <source src="images/Lahore Orange Line Metro Train Project(720P_HD).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
